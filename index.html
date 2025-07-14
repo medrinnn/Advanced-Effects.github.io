@@ -12,10 +12,6 @@
       body {
         margin: 0;
         padding: 0;
-        width: 100%;
-        height: 100%;
-
-        background-color: rgba(0, 0, 0, 0.5);
         
         background-image: url('bg.jpeg');
         background-size: cover;
@@ -46,6 +42,11 @@
         flex-direction: row;
       }
 
+      .fill {
+        width: 100%;
+        height: 100%;
+      }
+
       a.btn-accent {
         color: white;
         text-underline: none;
@@ -55,7 +56,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="fill">
     <div class="vertical center">
       <img src="/ae-256px.png" alt="Advanced Effects open source after effects alternative">
       <h1>Advanced Effects</h1>
