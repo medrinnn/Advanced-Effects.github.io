@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Advanced Effects</title>
+
+    <style>
+      * {
+        font-family: 'Inter Regular', 'Arial', sans-serif;
+      }
+      h1 {
+        font-family: 'Inter SemiBold';
+      }
+      p, a {
+        font-family: 'Inter Light';
+      }
+      
+      .vertical {
+        display: flex;
+        flex-direction: column;
+      }
+      .vertical.center {
+        align-items: center;
+      }
+      .horizontal {
+        display: flex;
+        flex-direction: row;
+      }
+
+      a.btn-accent {
+        color: white;
+        text-underline: none;
+        background-color: lightblue;
+        padding: 1px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body style="background-image: src(\"bg.jpeg\");">
+    <div class="vertical center">
+      <img src="/ae-256px.png" alt="Advanced Effects open source after effects alternative">
+      <h1>Advanced Effects</h1>
+      <p>An open source animation software and, soon, compositing alternative to After Effects, Glaxnimate and Friction.</p>
+      <div class="horizontal">
+        <a class="btn-accent" href="#">Download</a>
+        <a class="btn-black" href="#">GitHub</a>
+      </div>
+    </div>
+  </body>
+</html>
