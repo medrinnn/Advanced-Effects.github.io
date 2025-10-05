@@ -20,14 +20,16 @@
       }
       
       * {
-        font-family: 'Inter Regular', 'Arial', sans-serif;
+        font-family: 'Inter', 'Arial', sans-serif;
         color: white;
       }
       h1 {
-        font-family: 'Inter SemiBold';
+        font-family: 'Inter';
+        font-weight: bolder;
       }
       p, a {
-        font-family: 'Inter Light';
+        font-family: 'Inter';
+        font-weight: lighter;
       }
       
       .vertical {
@@ -40,6 +42,9 @@
       .horizontal {
         display: flex;
         flex-direction: row;
+      }
+      .horizontal * {
+        margin-right: 5px;
       }
       .horizontal.hcenter {
         align-items: center;
