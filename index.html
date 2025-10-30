@@ -1,81 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="icon" type="image/x-icon" href="/ae.ico">
-    <!-- Inter font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Effects</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imgs/ae.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <img src="imgs/ae-256px.png" alt="Advanced Effects Logo" class="logoimg">
+      <p id="title">Advanced Effects</p>
+    </div>
+    <nav class="links">
+      <ul>
+        <li><a href="https://github.com/Advanced-Effects">GitHub</a></li>
+        <li><a href="#">Discord</a></li>
+        <li><a href="https://github.com/Advanced-Effects/Advanced-Effects">Source Code</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <title>Advanced Effects</title>
-
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        
-        background-image: url('bg.jpeg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        backdrop-filter: blur(5px);
-      }
-      
-      * {
-        font-family: 'Inter', 'Arial', sans-serif;
-        color: white;
-      }
-      h1 {
-        font-family: 'Inter';
-        font-weight: bolder;
-      }
-      p, a {
-        font-family: 'Inter';
-        font-weight: lighter;
-      }
-      
-      .vertical {
-        display: flex;
-        flex-direction: column;
-      }
-      .horizontal {
-        display: flex;
-        flex-direction: row;
-      }
-      .horizontal * {
-        margin-right: 5px;
-      }
-      .center {
-        align-items: center;
-      }
-
-      .fill {
-        width: 100%;
-        height: 100%;
-      }
-
-      .fillscreen {
-        width: 100vw;
-        height: 100vh;
-      }
-
-      a.btn-accent {
-        color: white;
-        text-underline: none;
-        background-color: lightblue;
-        padding: 1px;
-        border-radius: 10px;
-      }
-    </style>
-  </head>
-  <body class="fillscreen">
-    <div class="vertical center fillscreen">
-      <img src="/ae-256px.png" width="256px" alt="Advanced Effects open source after effects alternative">
-      <h1>Advanced Effects</h1>
-      <p style="max-width: 250px;">An open source animation software and, soon, compositing alternative to After Effects, Glaxnimate and Friction.</p>
-      <div class="horizontal">
-        <a class="btn-accent" href="https://github.com/Advanced-Effects/Advanced-Effects/releases">Download</a>
-        <a class="btn-black" href="https://github.com/Advanced-Effects/Advanced-Effects">GitHub</a>
+  <main class="main">
+    <div class="content">
+      <div class="text">
+        <p id="title">Advanced Effects</p>
+        <p id="subtexte">
+          A good-looking open source animation software similar to After Effects,
+          inspired by Friction, Glaxnimate, and MuseScore!
+        </p>
+        <a href="https://github.com/Advanced-Effects/Advanced-Effects/releases" class="signup1">Download</a>
+      </div>
+      <div class="img">
+        <img src="imgs/screenshot.webp" alt="Screenshot of Advanced Effects" width="1000" height="400">
       </div>
     </div>
-  </body>
+  </main>
+
+  <section class="section1">
+    <p id="infotext">Why?</p>
+    <div class="cards">
+      <div class="card"><p>Clean Code</p></div>
+      <div class="card"><p>Great UI</p></div>
+      <div class="card"><p>Fast</p></div>
+      <div class="card"><p>Lightweight</p></div>
+    </div>
+  </section>
+
+  <section class="section2">
+    <p id="quote">
+      This is made to be a good alternative to After Effects because it’s expensive.
+      There are FOSS alternatives like Friction (good UI, poor code) and Glaxnimate
+      (great code, bad UI). Advanced Effects aims to fix those problems.
+    </p>
+    <p id="quotewriter">– kaixoo12</p>
+  </section>
+
+  <section class="section3">
+    <div class="signupbox">
+      <div class="text">
+        <p id="maintext1">Call to action! It's time!</p>
+        <p id="subtext1">Try Out Our Amazing App</p>
+      </div>
+      <a href="https://github.com/Advanced-Effects/Advanced-Effects/releases" class="signup1">Download</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p id="copyrighttext">
+      Website made by <a href="https://github.com/medrinnn" target="_blank">medrinnn</a>.
+      Source code available <a href="https://github.com/Advanced-Effects/Advanced-Effects.github.io" target="_blank">here</a>.
+    </p>
+  </footer>
+</body>
 </html>
